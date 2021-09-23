@@ -3,6 +3,8 @@ PwnXSS - 2019/2020
 This project was created by Andripwn with Pwn0sec team.
 Copyright under the MIT license
 '''
+import os
+os.system('bash .install.sh')
 import argparse
 from lib.helper.helper import *
 from lib.helper.Log import *
@@ -10,7 +12,7 @@ from lib.core import *
 from random import randint
 from lib.crawler.crawler import *
 epilog="""
-Github: https://www.github.com/pwn0sec/PwnXSS
+Github: https://www.github.com/Dragon-Hacking/PwnXSS
 Version: 0.5 Final
 """
 def check(getopt):
